@@ -1,0 +1,32 @@
+.item {
+    background-color: #5B052B;
+    padding: 20px;
+    color: white;
+}
+
+div {
+    display: grid;
+}
+
+.item-a {
+    grid-area: a;
+}
+
+.item-b {
+    grid-area: b;
+}
+
+.item-c {
+    grid-area: c;
+}
+
+.item-d {
+    grid-area: d;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 140px 140px;
+    grid-gap: 16px;
+}
